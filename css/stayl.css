@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 247, 247);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    height: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.cart1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    width: 570px;
+    height: 420px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 7px 7px 4px rgb(92 90 90);
+    position: relative;
+}
+
+.cart1::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    background: #1F1C2C;
+    background: -webkit-linear-gradient(to right, #1b1b1d, #121214);
+    background: linear-gradient(to right, #151516, #151518);
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.mens{
+    text-align: center;
+}
+
+#nombres{
+    margin: 0px;
+    margin-right: 372px;
+}
+#edad{
+    margin: 0px;
+    margin-right: 404px;
+}
+
+#inputNombre{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+#inputEdad{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+#botonCalcular{
+    width: 458px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    cursor: pointer;
+}
+
+#botonCalcular:hover{
+    width: 460px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(47, 199, 93);
+}
+
+/*carta 2*/
+
+.cart2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    width: 570px;
+    height: 420px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 8px 7px 7px 4px rgb(92 90 90)
+}
+
+.cart2::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    background: #1F1C2C;
+    background: -webkit-linear-gradient(to right, #1b1b1d, #121214);
+    background: linear-gradient(to right, #151516, #151518);
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.mensaaje{
+    text-align: center;
+}
+
+#nombre{
+    margin: 0px;
+    margin-right: 372px;
+}
+#edad_cart2{
+    margin: 0px;
+    margin-right: 404px;
+}
+
+#input_nombre{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+#input_edad_fecha{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+
+#boton_fecha{
+    width: 458px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    cursor: pointer;
+}
+
+#boton_fecha:hover{
+    width: 460px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(47, 199, 93);
+}
